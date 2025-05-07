@@ -62,10 +62,7 @@
       img.src = savedData;
     }
 
-    // Initial canvas setup
     setCanvasSize();
-
-    // Handle resizing and orientation changes
     window.addEventListener('resize', preserveDrawingOnResize);
     window.addEventListener('orientationchange', preserveDrawingOnResize);
 
